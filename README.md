@@ -26,9 +26,7 @@ The Private Phishing Detector is a Python-based application designed to monitor 
    ```
 2. Create a `.env` file in the root directory with the following variables:
    ```
-   EMAIL_ID=your_email_id_here
-   EMAIL_ADDRESS=your_email_address_here
-   EMAIL_PASSWORD=your_email_password_here
+   TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
    OPENAI_API_KEY=your_openai_api_key_here
    GLAIDER_API_KEY=your_glaider_api_key_here
    ```
@@ -37,7 +35,7 @@ The Private Phishing Detector is a Python-based application designed to monitor 
 
 Execute the script using the command:
 ```
-python email_phishing_detector.py
+python main.py
 ```
 The application will continuously monitor for new emails and display the phishing analysis results, including checks for prompt injections.
 
